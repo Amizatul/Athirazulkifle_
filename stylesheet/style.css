@@ -1,0 +1,85 @@
+html{
+    background-color: #E6B0AA;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:active{
+    color: red;
+}
+
+body{
+    font-family: 'Segoe UI', Times new roman, Geneva, Verdana, sans-serif;
+    margin: 25px 50px;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+.topnav{
+    background-color: #E6B0AA;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: #CCCCFF;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.topnav a.active{
+    background-color: #9C27B0;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topnav .search-container{
+    float: right;
+}
+
+.topnav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+ 
+}
+
+.topnav .search-container button{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #5F6A6A;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E6B0AA;
+    color: white;
+    padding: 4px;
+    text-align: center;
+}
