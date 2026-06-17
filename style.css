@@ -224,49 +224,6 @@ section {
 
 
 /* ===== CONTACT SECTION ===== */
-.contact-section {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.contact-sub {
-  color: #777;
-  margin-bottom: 30px;
-}
-
-/* GRID */
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-/* CARD STYLE */
-.contact-card {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: 0.3s;
-}
-
-.contact-card i {
-  font-size: 30px;
-  color: #ff4d6d;
-  margin-bottom: 10px;
-}
-
-.contact-card h3 {
-  margin: 10px 0;
-  color: #c9184a;
-}
-
-.contact-card p {
-  color: #666;
-  font-size: 14px;
-}
 
 /* BUTTON */
 .contact-btn {
