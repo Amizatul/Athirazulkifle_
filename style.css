@@ -1,11 +1,20 @@
 
 /* ===== GENERAL ===== */
+:root {
+  --primary: #ff4d6d;
+  --secondary: #ff8fa3;
+  --accent: #ffb3c1;
+  --dark: #c9184a;
+  --bg: #fff7f8;
+  --text: #333;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff7f6;
-  color: #333;
+  background: var(--bg);
+  color: var(--text);
 }
 
 h1, h2, h3 {
@@ -15,12 +24,7 @@ h1, h2, h3 {
 /* ===== HEADER / NAV ===== */
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  background: white;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+ 
 
 .logo {
   font-weight: bold;
